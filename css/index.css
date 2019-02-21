@@ -1,15 +1,35 @@
 body {
-    margin: auto;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 img {
-    width: 540px;
+    width: 480px;
     height: auto;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    position: fixed;
-    transform: translate(-50%, -50%);
+}
+
+.links {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.links div {
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+i {
+    color: black;
 }
