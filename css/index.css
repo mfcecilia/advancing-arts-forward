@@ -7,13 +7,17 @@ body {
     flex-flow: column wrap;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 img {
     width: 360px;
     height: auto;
 }
 
 .links {
-    text-decoration: none;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -28,6 +32,10 @@ img {
     font-size: 25px;
 }
 
-i {
-    color: black;
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-size: 15px;
 }
