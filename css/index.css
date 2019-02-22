@@ -1,13 +1,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
     align-items: center;
+    align-content: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
 img {
-    width: 480px;
+    width: 360px;
     height: auto;
 }
 
@@ -15,19 +16,16 @@ img {
     text-decoration: none;
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center stretch;
+    align-content: center;
 }
 
 .links div {
-    flex-direction: row;
-    justify-content: space-around;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
 }
 
 i {
