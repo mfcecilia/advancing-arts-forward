@@ -7,6 +7,10 @@ body {
     flex-flow: column wrap;
 }
 
+#browser-icon {
+    bottom: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -30,6 +34,11 @@ img {
     text-align: center;
     padding: 10px;
     font-size: 25px;
+}
+
+#mcf-logo {
+    max-width: 30px;
+    bottom: 0;
 }
 
 footer {
