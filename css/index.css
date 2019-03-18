@@ -58,6 +58,10 @@ a {
     cursor: pointer;
 }
 
+.register_button a {
+    color: #927da8;
+}
+
 .register {
     padding: 3%;
 }
@@ -72,6 +76,10 @@ a {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
     text-align: center;
     bottom: 0;
     font-size: 15px;
