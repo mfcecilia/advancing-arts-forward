@@ -71,11 +71,14 @@ a {
 }
 
 #mcf-logo {
-    max-width: 30px;
-    bottom: 0;
+    max-width: 5%;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
     width: 100%;
     text-align: center;
     bottom: 0;
