@@ -1,0 +1,10 @@
+https://developer.paypal.com/demo/checkout/#/pattern/responsive
+
+https://github.com/paypal/paypal-checkout-components/blob/master/docs/implement-checkout.md
+
+https://developer.paypal.com/docs/archive/checkout/how-to/customize-flow/#do-a-full-page-redirect
+
+https://developer.paypal.com/docs/classic/button-manager/integration-guide/
+
+https://developer.paypal.com/docs/classic/admin/checkout-settings/#customize-the-checkout-experience
+
