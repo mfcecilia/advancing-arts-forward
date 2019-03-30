@@ -6,6 +6,18 @@ body {
     justify-content: center;
     flex-flow: column wrap;
     justify-content: space-around;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+header {
+    background-color: lightyellow;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 #browser-icon {
@@ -18,7 +30,7 @@ a {
 }
 
 #aaf_logo {
-    max-width: 70%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -37,9 +49,25 @@ a {
     font-size: 25px;
 }
 
+.bio {
+    font-size: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #927DA8;
+}
+
+.register {
+    padding: 3%;
+}
+
 .info {
     max-width: 30%;
     text-align: center;
+    color: white;
 }
 
 .register_button {
@@ -47,24 +75,23 @@ a {
     font-size: 30px;
     padding: 1% 3%;
     border-radius: 50px;
-    border: 2px solid #927DA8;
-    color: #927DA8;
+    border: 2px solid white;
+    color: white;
     -webkit-transition-duration: 0.5s; /* Safari */
     transition-duration: 0.5s;
 }
 
 .register_button:hover {
-    background-color: #faf178;
+    background-color: lightyellow;
     cursor: pointer;
+    color: #927DA8;
 }
 
 .register_button a {
     color: #927da8;
 }
 
-.register {
-    padding: 3%;
-}
+
 
 .register img {
     max-width: 50%;
