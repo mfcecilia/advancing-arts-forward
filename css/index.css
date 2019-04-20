@@ -32,6 +32,16 @@ a {
 #aaf_logo {
     max-width: 45%;
     height: auto;
+    transition: .5s ease;
+    -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+}
+
+#aaf_logo:hover {
+    -moz-box-shadow: 5px 5px 10px black;
+    -webkit-box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 }
 
 .links {
