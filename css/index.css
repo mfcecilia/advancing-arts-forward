@@ -105,7 +105,40 @@ h1 {
 }
 
 #past-events {
-    background-color: #382749
+    background-color: #382749;
+}
+
+.donate {
+    background-color: #f5d832;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.donate i {
+    margin: auto;
+    color: #382749;
+}
+
+.donate-btn {
+    text-align: center;
+    font-size: 30px;
+    padding: 1% 3%;
+    border-radius: 50px;
+    border: 2px solid #382749;
+    background-color: transparent;
+    color: #382749;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    max-width: 30%;
+    margin: auto;
+}
+
+.donate-btn:hover {
+    background-color: #382749;
+    color: white;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
 }
 
 #princexdesign-logo {
