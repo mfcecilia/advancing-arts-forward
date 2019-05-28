@@ -114,6 +114,10 @@ h1 {
     box-shadow: 5px 5px 10px black;
 }
 
+.publications img {
+    max-width: 60%;
+}
+
 #past-events {
     background-color: #382749;
 }
