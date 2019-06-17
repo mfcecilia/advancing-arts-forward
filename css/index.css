@@ -1,11 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    justify-content: space-around;
     margin: 0;
     height: 100%;
     min-height: 100%;
@@ -114,8 +109,26 @@ h1 {
     box-shadow: 5px 5px 10px black;
 }
 
+.publication-imgs {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.publications h1 {
+    margin: auto;
+    text-align: center;
+}
+
+
+.publications a {
+    max-width: 40%;
+    margin: 1%;
+}
+
 .publications img {
-    max-width: 60%;
+    max-width: 70%;
 }
 
 #past-events {
