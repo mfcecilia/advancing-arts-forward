@@ -192,5 +192,10 @@ footer {
     align-items: baseline;
     text-align: center;
     bottom: 0;
-    font-size: 15px;
+    font-size: .75em;
+    color: grey;
+}
+
+footer a {
+    color: grey;
 }
