@@ -109,6 +109,10 @@ h1 {
     box-shadow: 5px 5px 10px black;
 }
 
+.publications {
+    background-color: white;
+}
+
 .publication-imgs {
     display: flex;
     flex-flow: row;
@@ -119,6 +123,7 @@ h1 {
 .publications h1 {
     margin: auto;
     text-align: center;
+    color: grey;
 }
 
 
