@@ -58,6 +58,29 @@ a {
     font-size: 20px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightyellow;
+    padding: 1em;
+    padding-bottom: 5em;
+}
+
+.menu a {
+    font-size: 1.3em;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 1em;
+    color: grey;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #927DA8;
+    border-top: 1px solid #927DA8;
+    color: #927DA8;
+}
+
+
 .events {
     display: flex;
     flex-direction: column;
