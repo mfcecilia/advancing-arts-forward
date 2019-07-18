@@ -2,3 +2,8 @@ body {
     background-color: #927DA8;
     text-align: center;
 }
+
+.form {
+    max-width: 90%;
+    width: 90%;
+}
