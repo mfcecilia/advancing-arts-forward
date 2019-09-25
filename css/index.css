@@ -154,12 +154,12 @@ h1 {
 
 
 .publications a {
-    max-width: 40%;
-    margin: 1%;
+    max-width: 45%;
+    margin: 2%;
 }
 
 .publications img {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 #past-events {

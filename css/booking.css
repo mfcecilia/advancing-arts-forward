@@ -1,8 +1,11 @@
 body {
-    background-color: #927DA8;
+    background-color: black;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: white;
+        font-size: 15px;
+    max-width: 70%;
+    margin: auto;
 }
 
 div {
